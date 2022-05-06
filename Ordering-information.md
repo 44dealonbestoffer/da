@@ -16,7 +16,6 @@ Standard parts can be purchased at the following resellers:
 * [Crowd Supply](https://www.crowdsupply.com/f-secure/usb-armory-mk-ii)
 * [Hackerwarehouse](https://hackerwarehouse.com/product/usb-armory-mkii)
 * [HackmoD](http://www.hackmod.de/USB-Armory-Stick-Mark-2)
-* [SparkFun](https://www.sparkfun.com/products/16367)
 
 Additionally [WithSecure Foundry](https://foundry.withsecure.com) accepts
 standard and custom orders, in retail or bulk quantities, from companies/OEMs/resellers at usbarmory@withsecure.com.
