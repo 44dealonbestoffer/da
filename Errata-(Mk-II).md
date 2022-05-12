@@ -163,9 +163,12 @@ allow the following:
   * reading the amount of current made available by the host
   * detecting a debug accessory
 
-On a test Apple Macbook Pro setting the ENABLE bit results in a port reset by
-the host. This makes the FUSB303 incompatible with "dead battery" operation
-when attached as a power sink.
+When using a Type-C cable on the receptacle port as only power source setting
+the ENABLE bit results in a port reset by the host. This makes the FUSB303
+incompatible with "dead battery" operation when attached as a power sink.
+
+The errata does not apply when using Type-A (host side) to Type-C (device
+receptacle) connections.
 
 To fix the problem the TUSB320 P/N has been considered as it is almost pin
 compatible with the FUSB303, however the TUSB320 is not ideal for use as
@@ -194,8 +197,9 @@ operation, as the majority of receptacle port use cases would not involved a
 sink connection to a host.
 
 In cases where users desire a sink connection to a host, using the receptacle
-port, the default firmware behavior can be overridden by software as the ENABLE
-command issued by the bootloader can be disabled.
+port the default firmware behavior can be overridden by software as the ENABLE
+command issued by the bootloader can be disabled, this however only allows the
+connection to be used as power source without any data exchange.
 
 Useful links:  
 https://e2e.ti.com/support/interface/f/138/p/707926/2608914  
