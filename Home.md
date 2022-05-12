@@ -50,7 +50,7 @@ The following sections provide information specific to each USB armory model.
   * Bluetooth module: u-blox ANNA-B112 BLE
   * USB 2.0 over USB-C: DRP receptacle + UFP plug
   * Secure elements: NXP SE050 (rev. γ), Microchip ATECC608A + NXP A71CH (rev. β)
-* [Datasheet](https://github.com/usbarmory/usbarmory/wiki/media/usbarmory-mark-two-datasheet-rev2.0.pdf)
+* [Datasheet](https://github.com/usbarmory/usbarmory/wiki/media/usbarmory-mark-two-datasheet-rev3.0.pdf)
 * [Introduction](https://github.com/usbarmory/usbarmory/wiki/Mk-II-Introduction)
 * Bill of materials: [rev. γ](https://usbarmory.github.io/BOM/usbarmory-mark-two.html), [rev. β](https://usbarmory.github.io/BOM/usbarmory-mark-two-beta.html)
 * [Security features](https://github.com/usbarmory/usbarmory/wiki/Hardware-security-features-(Mk-II))
