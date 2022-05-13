@@ -198,8 +198,7 @@ sink connection to a host.
 
 In cases where users desire a sink connection to a host, using the receptacle
 port the default firmware behavior can be overridden by software as the ENABLE
-command issued by the bootloader can be disabled, this however only allows the
-connection to be used as power source without any data exchange.
+command issued by the bootloader can be disabled.
 
 Useful links:  
 https://e2e.ti.com/support/interface/f/138/p/707926/2608914  
