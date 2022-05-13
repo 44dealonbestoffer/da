@@ -208,8 +208,8 @@ Manual enable:
 `i2cset -y 0 0x31 0x5 0xbb` or
  [armoryctl](https://github.com/usbarmory/armoryctl) `fusb (enable|disable)`
 
-Errata: instability with specific Linux kernel versions (resolved on <= 4.19, >= 5.3)
--------------------------------------------------------------------------------------
+Bug: instability with specific Linux kernel versions (resolved on <= 4.19, >= 5.3)
+----------------------------------------------------------------------------------
 
 The following commit introduces CPU/memory instability (kernel versions > 4.9):
   http://archive.lwn.net:8080/devicetree/1535701998-20443-2-git-send-email-Anson.Huang@nxp.com/t/#m37a316952c72a0b8d2ae16e7d0720a498048409c
@@ -223,8 +223,8 @@ the following one:
 
 The patch is included in kernels >= 5.3,
 
-Errata: glitch on CPU frequency changes (resolved)
---------------------------------------------------
+Bug: glitch on CPU frequency changes (resolved)
+-----------------------------------------------
 
 When the Linux CPU governor is set `ondemand`, and on high CPU loads, the
 system is highly unstable on a relevant percentage of pre-production boards
