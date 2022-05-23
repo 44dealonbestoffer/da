@@ -94,7 +94,7 @@ protected image).
 
 * The [TamaGo](https://github.com/usbarmory/tamago) bare metal Go compiler
 includes [imx6 drivers](https://github.com/usbarmory/tamago/tree/master/soc/imx6)
-and [Mk II board support](https://github.com/usbarmory/tamago/tree/master/board/f-secure/usbarmory).
+and [Mk II board support](https://github.com/usbarmory/tamago/tree/master/board/usbarmory).
 
 * A Linux kernel driver for the DCP (i.MX6ULZ), which takes advantage of the
 OTPMK released by the SNVS, is available at
