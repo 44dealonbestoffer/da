@@ -357,7 +357,7 @@ The following Go packages are provided to aid programmatic integration:
 
 * The [otp package](https://pkg.go.dev/github.com/usbarmory/crucible/otp) provides support for One-Time-Programmable (OTP) fuses read and write operations.
 
-* The [ocotp package](https://pkg.go.dev/github.com/usbarmory/tamago/soc/imx6/ocotp) implements a driver for the NXP On-Chip OTP Controller (OCOTP_CTRL) to interface with on-chip fuses, including write operation. This package is only meant to be used with `GOOS=tamago GOARCH=arm` as supported by the [TamaGo framework](https://github.com/usbarmory/tamago).
+* The [ocotp package](https://pkg.go.dev/github.com/usbarmory/tamago/soc/nxp/ocotp) implements a driver for the NXP On-Chip OTP Controller (OCOTP_CTRL) to interface with on-chip fuses, including write operation. This package is only meant to be used with `GOOS=tamago GOARCH=arm` as supported by the [TamaGo framework](https://github.com/usbarmory/tamago).
 
 ### External documentation
 

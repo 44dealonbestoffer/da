@@ -93,7 +93,7 @@ protected image).
 * A wide variety of Linux distributions is [available](https://github.com/usbarmory/usbarmory/wiki/Available-images), the main one supported by WithSecure is a [Debian image](https://github.com/usbarmory/usbarmory-debian-base_image).
 
 * The [TamaGo](https://github.com/usbarmory/tamago) bare metal Go compiler
-includes [imx6 drivers](https://github.com/usbarmory/tamago/tree/master/soc/imx6)
+includes [imx6 drivers](https://github.com/usbarmory/tamago/tree/master/soc/nxp/imx6ul)
 and [Mk II board support](https://github.com/usbarmory/tamago/tree/master/board/usbarmory).
 
 * A Linux kernel driver for the DCP (i.MX6ULZ), which takes advantage of the
